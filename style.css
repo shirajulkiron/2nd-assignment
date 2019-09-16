@@ -1,0 +1,115 @@
+
+html{
+	font-size: 10px;
+	scroll-behavior: smooth ;
+}
+body{
+	font-family: 'Titillium Web', sans-serif;
+   font-size: 1.6rem;
+margin: 0;
+}
+ul li{
+	list-style-type: none;
+	color: #92B5B5;
+}
+.row{
+	max-width:110rem;
+	 margin: auto;
+    overflow: hidden;
+
+}
+h1{
+	font-size: 2.9rem;
+}
+section{
+	padding: 11rem 0;
+	
+}
+header{
+	background: url(banner.jpg );
+	background-repeat: no-repeat;
+background-size: cover; 
+background-position: center;
+	height: 100vh;
+	position: relative;
+}
+.logo{
+	height: 3.5rem;
+	width: auto;
+	margin-top: 4rem;
+	float: left; 
+}
+.main-nav {
+	float: right;
+	margin-top: 4rem;
+}
+.main-nav li{
+	display: inline-block;
+	margin-left: 1rem;
+	color: #92B5B5;
+	font-color:#34BDBD;
+}
+.main-nav li: first-child{
+	margin-left: 0; 
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+	color: #917F0C;
+	text-decoration :none;
+	text-transform: uppercase;
+	padding: .4rem 1.6rem;
+	border-radius: 1rem;
+	display: inline-block; 
+	font-size: 1.6rem;
+	transition: .7s;
+
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited{
+	background:#B9CFC1 ;
+}
+.active{
+	background: #B9CFC1 ;
+	border-radius: .6rem;
+}
+.little1{
+	font-size: 1.4rem;
+	width: 100%;
+	line-height: 3rem;
+	color: #9FAFB4;
+}
+.comment1{
+	margin-top: 1.5rem;
+	background:#9FAFB4;
+	display: inline-block;
+}
+.portfolio-section{
+    padding: 100px 0;
+}
+.portfolio{
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.portfolio img{
+    display: block;
+    width: 100%;
+    height: 50%;
+}
+.little2{
+	font-size: 1.7rem;
+	width: 100%;
+	line-height: 3rem;
+	color: #9FAFB4;
+	margin-top: 30px;
+}
+h2{
+	color: #718176;
+}
+.Photodiary{
+	background:url(blog3.jpg) ;
+	background-repeat: no-repeat;
+   background-size: cover; 
+   background-position: center top;
+}
